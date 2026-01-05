@@ -289,8 +289,8 @@ const slides = ref([
     sublineFirstLine: 'Welcome',
     sublineSecondLine: 'Home',
     route: '/',
-    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide0.png',
-    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect0.png'
+    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide0.png',
+    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect0.png'
   },
   {
     headlineFirstLine: 'About',
@@ -298,8 +298,8 @@ const slides = ref([
     sublineFirstLine: 'M31',
     sublineSecondLine: 'About Me',
     route: '/about',
-    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide1.png',
-    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect1.png'
+    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide1.png',
+    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect1.png'
   },
   {
     headlineFirstLine: 'Projects',
@@ -307,8 +307,8 @@ const slides = ref([
     sublineFirstLine: 'My',
     sublineSecondLine: 'Projects',
     route: '/projects',
-    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide2.png',
-    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect2.png'
+    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide2.png',
+    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect2.png'
   },
   {
     headlineFirstLine: 'Contact',
@@ -316,8 +316,8 @@ const slides = ref([
     sublineFirstLine: 'Get',
     sublineSecondLine: 'In Touch',
     route: '/contact',
-    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide3.png',
-    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect3.png'
+    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide3.png',
+    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect3.png'
   },
   {
     headlineFirstLine: 'Social',
@@ -325,8 +325,8 @@ const slides = ref([
     sublineFirstLine: 'Connect',
     sublineSecondLine: 'With Me',
     route: '/social-media',
-    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide4.png',
-    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect4.png'
+    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide4.png',
+    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect4.png'
   },
   {
     headlineFirstLine: 'Portfolio',
@@ -334,8 +334,8 @@ const slides = ref([
     sublineFirstLine: 'My',
     sublineSecondLine: 'Work',
     route: '/portfolio',
-    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide5.png',
-    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/mainhttps://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect5.png'
+    bgImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide5.png',
+    rectImg: 'https://raw.githubusercontent.com/tara-ward/M31/refs/heads/main/src/img/slide-rect5.png'
   }
 ])
 
