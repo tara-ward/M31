@@ -23,7 +23,7 @@
         </div>
         <div class="slide-content" :class="{ 'has-cards': index === 2, 'has-about': index === 1, 'has-social': index === 4, 'has-home': index === 0 }">
           <div v-if="index === 0" class="home-logo-container" @click.stop>
-            <img src="/src\img\M31.png" alt="M31 Logo" class="home-logo" />
+            <img src="/src/img/M31.png" alt="M31 Logo" class="home-logo" />
           </div>
           <h1 v-if="index === 2" class="projects-title">
             
@@ -36,7 +36,7 @@
                 <h1 class="about-title">about me</h1>
                 <section class="about-clearfix">
                   <div class="about-col-2 about-egw">
-                    <img src="/src\img\author.jpg" alt="Profile"/>
+                    <img src="\src\img\author.jpg" alt="Profile"/>
                   </div>
                   <div class="about-col-4 about-info">
                     <p>
@@ -70,7 +70,7 @@
           </div>
           <div v-if="index === 2" class="projects-cards" @click.stop>
             <Card
-              data-image="/src\img\Cards/Card0.png?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop="
+              data-image="/src/img/Cards/Card0.png?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop="
             >
               <template #header>
                 <h1>Current Work</h1>
@@ -80,7 +80,7 @@
               </template>
             </Card>
             <Card
-              data-image="/src\img\Cards/Card3.png?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop="
+              data-image="/src/img/Cards/Card3.png?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop="
             >
               <template #header>
                 <h1>The Mauja Le Guin Chronicles</h1>
@@ -90,7 +90,7 @@
               </template>
             </Card>
             <Card
-              data-image="/src\img\Cards/Card2.png?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop="
+              data-image="/src/img/Cards/Card2.png?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop="
             >
               <template #header>
                 <h1>Idavoll and Its Inhabitants</h1>
@@ -102,7 +102,7 @@
               </template>
             </Card>
             <Card
-              data-image="/src\img\Cards/Card1.png?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop="
+              data-image="/src/img/Cards/Card1.png?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop="
             >
               <template #header>
                 <h1>Snow Place Like Home</h1>
@@ -119,7 +119,7 @@
             <h1 class="projects-title">Contact Me</h1>
             <a :href="'mailto:maujaleguin@gmail.com'" target="_blank" rel="noopener">
               <img
-                src="/src\img\Email.png"
+                src="/src/img/Email.png"
                 alt="Email"
                 style="width: 100%; max-width: 900px; cursor: pointer; display: block;"
               />
@@ -128,7 +128,7 @@
 
           <div v-if="index === 4" class="social-media-content" @click.stop>
             <a href="https://bsky.app/profile/m31author.bsky.social" target="_blank" rel="noopener noreferrer" class="social-media-header">
-              <img src="/src\img\Bluesky.png" alt="Bluesky Logo" class="social-media-logo" />
+              <img src="\src\img\Bluesky.png" alt="Bluesky Logo" class="social-media-logo" />
               <span class="social-media-text">M31🍁</span>
             </a>
             <div class="social-media-box">
@@ -144,7 +144,7 @@
         </div>
 
         <div v-if="index === 5" class="portfolio-santa-paws" @click.stop style="display: flex; flex-direction: column; align-items: center; margin-top: 120px;">
-          <img src="/src\img\SantaPaws.png" alt="Santa Paws Top" style="width: 100%; max-width: 700px; object-fit: cover; margin-bottom: 20px; margin-top: -40px; z-index: 1;" />
+          <img src="/src/img/SantaPaws.png" alt="Santa Paws Top" style="width: 100%; max-width: 700px; object-fit: cover; margin-bottom: 20px; margin-top: -40px; z-index: 1;" />
           <div style="position: relative; width: 100%; max-width: 700px; margin-bottom: 60px;">
             <div style="background: rgba(255,255,255,0.85); border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-height: 300px; overflow-y: auto; padding: 24px; font-size: 1.1rem; color: #333;">
               <p>There once was a wee lass who lived in the Scottish Highlands. Her name was Christmas Cumbersome-Snow. She was named Christmas because she was born on Christmas Eve, and she had two surnames because she had many pretentious ancestors. Christmas - Chris for short - was an only child, and the nearest house with children was twenty-five kilometres away. With no other children to play with, Chris&rsquo;s best mate was a dog named Kringle.</p>
@@ -187,7 +187,7 @@
                
               <div style="height: 200px;"></div>
             </div>
-            <img src="/src\img\SantaPaws2.png" alt="Santa Paws Overlay" style="position: absolute; left: 50%; bottom: -140px; transform: translateX(-50%); width: 100%; max-width: 700px; pointer-events: none;" />
+            <img src="/src/img/SantaPaws2.png" alt="Santa Paws Overlay" style="position: absolute; left: 50%; bottom: -140px; transform: translateX(-50%); width: 100%; max-width: 700px; pointer-events: none;" />
           </div>
         </div>
 
@@ -289,8 +289,8 @@ const slides = ref([
     sublineFirstLine: 'Welcome',
     sublineSecondLine: 'Home',
     route: '/',
-    bgImg: 'src\img\Slides/slide0.png',
-    rectImg: 'src\img\Slides/slide-rect0.png'
+    bgImg: 'src/img/Slides/slide0.png',
+    rectImg: 'src/img/Slides/slide-rect0.png'
   },
   {
     headlineFirstLine: 'About',
@@ -298,8 +298,8 @@ const slides = ref([
     sublineFirstLine: 'M31',
     sublineSecondLine: 'About Me',
     route: '/about',
-    bgImg: 'src\img\Slides/slide1.png',
-    rectImg: 'src\img\Slides/slide-rect1.png'
+    bgImg: 'src/img/Slides/slide1.png',
+    rectImg: 'src/img/Slides/slide-rect1.png'
   },
   {
     headlineFirstLine: 'Projects',
@@ -307,8 +307,8 @@ const slides = ref([
     sublineFirstLine: 'My',
     sublineSecondLine: 'Projects',
     route: '/projects',
-    bgImg: 'src\img\Slides/slide2.png',
-    rectImg: 'src\img\Slides/slide-rect2.png'
+    bgImg: 'src/img/Slides/slide2.png',
+    rectImg: 'src/img/Slides/slide-rect2.png'
   },
   {
     headlineFirstLine: 'Contact',
@@ -316,8 +316,8 @@ const slides = ref([
     sublineFirstLine: 'Get',
     sublineSecondLine: 'In Touch',
     route: '/contact',
-    bgImg: 'src\img\Slides/slide3.png',
-    rectImg: 'src\img\Slides/slide-rect3.png'
+    bgImg: 'src/img/Slides/slide3.png',
+    rectImg: 'src/img/Slides/slide-rect3.png'
   },
   {
     headlineFirstLine: 'Social',
@@ -325,8 +325,8 @@ const slides = ref([
     sublineFirstLine: 'Connect',
     sublineSecondLine: 'With Me',
     route: '/social-media',
-    bgImg: 'src\img\Slides/slide4.png',
-    rectImg: 'src\img\Slides/slide-rect4.png'
+    bgImg: 'src/img/Slides/slide4.png',
+    rectImg: 'src/img/Slides/slide-rect4.png'
   },
   {
     headlineFirstLine: 'Portfolio',
@@ -334,8 +334,8 @@ const slides = ref([
     sublineFirstLine: 'My',
     sublineSecondLine: 'Work',
     route: '/portfolio',
-    bgImg: 'src\img\Slides/slide5.png',
-    rectImg: 'src\img\Slides/slide-rect5.png'
+    bgImg: 'src/img/Slides/slide5.png',
+    rectImg: 'src/img/Slides/slide-rect5.png'
   }
 ])
 
@@ -401,5 +401,4 @@ onMounted(() => {
 <style scoped lang="scss">
 @import '../styles/slide-carousel.scss';
 </style>
-
 
